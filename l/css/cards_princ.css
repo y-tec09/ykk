@@ -1,0 +1,33 @@
+/*Reglas de estilos para los elementos de la sección destacada*/
+
+.cont-dest {
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+	text-align: center;
+}
+.sec-princs {
+	padding: 20px;
+}
+.sec-princs a {
+	color: #2992d6;
+	text-decoration: none;
+	font-size: 100px;
+}
+.sec-princs p {
+	color: #35475b;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+	.cont-dest {
+		display: flex;
+		justify-content: center;
+		padding-top: 20px;
+		padding-bottom: 20px;	
+	}
+	.sec-princs {
+		max-width: 30%;
+	}
+}

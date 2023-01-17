@@ -1,0 +1,21 @@
+.cont-sites {
+	width: 100%;
+	height: auto;
+	padding: 15px;
+}
+.img-site {
+	width: 100%;
+	height: 200px;
+}
+@media screen and (min-width: 800px) {
+	.img-site {
+		padding: 20px;
+		height: 400px
+	}
+}
+.img-site img {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}

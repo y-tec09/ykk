@@ -1,0 +1,19 @@
+/*Reglas de estilos para los elementos de la sección destacada*/
+
+.ults-trabs {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background-color: #35475b;
+}
+.ults-trabs p {
+	padding: 10px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.ults-trabs h3 {
+	color: #2998d6;
+	text-align: center;
+}

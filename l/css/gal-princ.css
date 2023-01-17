@@ -1,0 +1,18 @@
+.cont-gals {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+
+	
+}
+.cont-gals p {
+	color: #35475b;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.cont-g-img {
+	height: 300px;
+	overflow-x: scroll;
+	display: table-cell;
+}
