@@ -267,32 +267,36 @@ div.container button {
 /*Fin del hero card*/
 
 /*Cards de plantillas*/
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-  margin-bottom: 20px;
-}
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 3px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3em;
+  flex-wrap: wrap;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
+/* Float four columns side by side */
+.column {
+  flex-basis: 280px;
+  max-width: 290px;
+  flex-grow: 1;
+}
+
+
+/* Responsive columns 
+@media screen and (min-width: 800px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
-}
+}*/
 
 /* Style the counter cards */
 .card {
@@ -644,3 +648,15 @@ input[type=submit]:hover {
   }
 }
 /*Fin del footer*/
+
+/*Efecto de zoom*/
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  width: 100%;
+  height: auto;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/*Fin de efecto*/
